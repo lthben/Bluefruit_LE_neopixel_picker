@@ -117,7 +117,7 @@ int pos = 0, dir = 1; // Position, direction of "eye" for larson scanner animati
 
 void setup(void)
 {
-//  while (!Serial);  // required for Flora & Micro
+//  while (!Serial);  // IMPORTANT! uncomment when debugging, comment when deploying
 //  delay(500);
 
   // turn off neopixel
